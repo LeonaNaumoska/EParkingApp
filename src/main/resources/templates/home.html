@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+<!--Header-->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/home">E-PARKING</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item m-auto">
+                    <a class="nav-link active" href="/home">HOME</a>
+                </li>
+                <li class="nav-item m-auto">
+                    <a class="nav-link active" href="/parkingPlaces">PARKING PLACES</a>
+                </li>
+                <li class="nav-item m-auto">
+                    <a class="nav-link active" href="/reservations">RESERVATIONS</a>
+                </li>
+                <li class="nav-item m-auto">
+                    <a class="nav-link active" href="/vehicles">VEHICLES</a>
+                </li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <a class="btn btn-primary btn-sm ml-3" href="/register">
+                    <i class="fa fa-shopping-cart"></i> REGISTER
+                </a>
+                <a class="btn btn-primary btn-sm ml-3" href="/login">
+                    <i class="fa fa-shopping-cart"></i> LOGIN
+                </a>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!-- Body -->
+<section class="jumbotron text-center">
+    <div class="container">
+        <h6 class="jumbotron-heading">E-PARKING RESERVATION APPLICATION</h6>
+        <br>
+        <h1 class="jumbotron-heading">WELCOME!!!</h1>
+    </div>
+</section>
+
+<section class="text-center">
+    <div class="container">
+        <h4 class="jumbotron-heading"><i>About the application</i></h4>
+        <br>
+        <p>This application is made in Spring Boot, as a seminar on the subject Web programming. The application is a platform for renting parking spaces in the cities in Macedonia. Users can add their own parking spaces that they will offer for rent, and the places will state in which city they are located, what is the price per hour and a short description of the parking space itself.</p>
+    </div>
+</section>
+
+<br>
+<section class="text-center">
+<div class="container">
+    <p><i>Made by:</i></p>
+    <h6 class="jumbotron-heading"><i><b>Leona Naumoska, 183022 - PIT, FINKI</b></i></h6>
+    <br>
+</div>
+</section>
+<!-- Footer -->
+<footer class="text-black-50 mt-xl-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-lg-1 col-xl-5">
+                <h5>Contact</h5>
+                <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-envelope mr-2"></i>e-parking@pk.com</li>
+                    <li><i class="fa fa-phone mr-2"></i> + 33 12 14 15 16</li>
+                    <li><i class="fa fa-print mr-2"></i> + 33 12 14 15 16</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
